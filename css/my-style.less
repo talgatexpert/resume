@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #272727;
+    font-family: Oswald;
+
+}
+
+.background-photo {
+    background-image: url(../img/back-header.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 95vh;
+}
+
+.container {
+    max-width: 1400px;
+}
+
+.logo-header {
+
+    padding-top: 12px;
+
+    img {
+
+        width: 100px;
+        height: 100%;
+    }
+
+    p {
+        font-size: 20px;
+        line-height: 20px;
+        padding-left: 14px;
+        padding-top: 15px;
+        text-transform: uppercase;
+        width: 10%;
+    }
+}
+
+.header-social {
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-end;
+
+    li {
+        list-style: none;
+
+        a {
+            color: #fee600;
+            text-decoration: none;
+        }
+    }
+
+    .social-link {
+        padding-left: 6px;
+    }
+
+
+
+    .consultation {
+        padding: 6px 22px;
+        border-radius: 5px;
+        color: black;
+        background-color: #fee600;
+        font-size: 18px;
+        font-family: Oswald;
+        font-weight: 300;
+        transition: background-color ease 150ms;
+
+        &:hover {
+            background-color: #b6b904;
+        }
+    }
+
+    .mail {
+        font-family: Oswald;
+        font-size: 18px;
+        font-weight: 300;
+    }
+
+}
+
+.bg-fon {
+    margin-top: 5px;
+    background-color: #272727;
+}
+
+.navigation {
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+    li {
+        padding: 9px 0;
+        padding-right: 100px;
+        list-style: none;
+
+        a {
+            color: #ffffff;
+            font-weight: 300;
+            font-size: 18px;
+            text-decoration: none;
+        }
+    }
+}
+
+.person {
+
+    background-image: url(../img/person.svg);
+    background-repeat: no-repeat;
+    background-size: 117%;
+    background-position-y: 25px;
+    height: 100vh;
+
+    .person-text {
+        padding-top: 100px;
+        padding-right: 30px;
+        float: right;
+        height: auto;
+        font-size: 34px;
+
+        text-transform: uppercase;
+        color: #000000;
+
+    }
+
+}
+
+.next-btn {
+    margin: 0;
+    padding: 0;
+
+    color: #fff;
+    -webkit-transform: rotate(-90deg); //Chrome, Safari
+    -moz-transform: rotate(-90deg); //Firefox
+    -o-transform: rotate(-90deg); //Opera
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+
+}
+
+.form-background {
+    margin-left: 100px;
+    height: 400px;
+    width: 80%;
+    background-color: #ffffff;
+    border-radius: 20px;
+
+
+    h3 {
+        padding-top: 25px;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    p {
+        padding-top: 12px;
+        text-align: center;
+        font-size: 16px;
+        padding-bottom: 30px;
+    }
+
+    .form-inputs {
+        margin: auto;
+        width: 85%;
+        margin-top: 17px;
+        border-radius: 10px;
+        border: 1px solid #dedede;
+        background-color: #fafafa;
+        height: 41px;
+
+        &::placeholder {
+            font-family: Oswald;
+            font-weight: 300;
+            color: #bebebe;
+        }
+
+    }
+}
